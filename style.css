@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Carter+One&family=Caveat:wght@400..700&family=Cinzel:wght@400..900&family=Dancing+Script:wght@700&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(assets/KuCAT8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.parent{
+    width: 50%;
+    height: auto;
+    border: 1px solid rgba(128, 74, 0, 0.705);
+    margin-top: 7rem;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 20px;
+}
+#inputText{
+    width: 90%;
+    padding: 100px 20px;
+    text-align: start;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(222, 184, 135, 0.521);
+    filter: brightness(10px);
+      font-family: "Cinzel", serif;
+
+}
+#inputText:focus{
+        border: 1px solid rgba(128, 74, 0, 0.705);
+        outline: none;
+
+}
+input{
+    width: 90%;
+    padding: 10px 20px;
+     text-align: start;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(222, 184, 135, 0.521);
+    filter: brightness(10px);
+      font-family: "Cinzel", serif;
+
+}
+input:focus{
+    outline: none;
+            border: 1px solid rgba(128, 74, 0, 0.705);
+
+    
+
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgba(138, 103, 57, 0.842);
+    color: white;
+    cursor: pointer;
+      font-family: "Edu AU VIC WA NT Arrows", cursive;
+
+}
+button:hover{
+    cursor: pointer;
+    transition: 0.2s ease-in-out all;
+    filter: brightness(1.4);
+}
+button:active{
+    transform: scale(0.90);
+}
+h1{
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    color: white;
+    font-size: 50px;
+
+}
