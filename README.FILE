@@ -1,0 +1,25 @@
+|| 📝 Word Counter ||
+
+A simple tool that counts the number of words || characters || lines || in a given text.  
+Perfect for beginners or anyone doing quick text analysis.
+
+---
+
+||  🚀 Features
+- ✅ Count words
+- ✅ Count characters (with or without spaces)
+- ✅ Count lines
+- ✅ Fast and easy to use
+
+---
+
+|| 📂 Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/farhanbaber/word-counter.git
+   cd word-counter
+Words: 120
+Characters (with spaces): 650
+Characters (without spaces): 540
+Lines: 8
+
